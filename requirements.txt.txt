@@ -1,0 +1,11 @@
+flask
+streamlit
+pandas
+numpy
+scikit-learn
+pdfminer.six
+python-docx
+spacy
+gunicorn
+requests
+flask-cors
