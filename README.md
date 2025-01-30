@@ -1,3 +1,5 @@
+Resume Ranking System
+Overview
 This project is a Resume Ranking System that helps match resumes to specific job fields using Natural Language Processing (NLP) and Machine Learning (ML) techniques. The system extracts relevant information from resumes (in PDF and DOCX formats), such as skills, experience, and education, and ranks the resume based on its relevance to the selected job field. The project uses Flask for web development, spaCy for NLP tasks, and scikit-learn for text similarity matching.
 
 Features
@@ -98,5 +100,3 @@ resume-ranking-system/
 └── requirements.txt      # List of Python dependencies
 Contributing
 If you'd like to contribute to this project, feel free to fork it and submit a pull request. You can also open issues if you encounter any bugs or have feature suggestions.
-
-License
