@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Resume</title>
+</head>
+<body>
+    <h2>Upload Resume (PDF or DOCX)</h2>
+    <form method="POST" enctype="multipart/form-data">
+        <label for="job_field">Select Job Field:</label>
+        <select name="job_field" id="job_field">
+            <option value="Data Scientist">Data Scientist</option>
+            <option value="Software Engineer">Software Engineer</option>
+            <option value="DevOps Engineer">DevOps Engineer</option>
+            <option value="Full Stack Developer">Full Stack Developer</option>
+            <option value="Data Analyst">Data Analyst</option>
+            <option value="Cloud Engineer">Cloud Engineer</option>
+            <option value="Cybersecurity Specialist">Cybersecurity Specialist</option>
+            <option value="Web Developer">Web Developer</option>
+            <option value="Mobile App Developer">Mobile App Developer</option>
+            <option value="Machine Learning Engineer">Machine Learning Engineer</option>
+            <option value="Blockchain Developer">Blockchain Developer</option>
+            <option value="Database Administrator">Database Administrator</option>
+            <option value="UI/UX Designer">UI/UX Designer</option>
+            <option value="Embedded Systems Engineer">Embedded Systems Engineer</option>
+            <option value="Game Developer">Game Developer</option>
+            <option value="System Administrator">System Administrator</option>
+            <option value="Digital Marketing Specialist">Digital Marketing Specialist</option>
+            <option value="AI & Robotics Engineer">AI & Robotics Engineer</option>
+            <option value="Networking Engineer">Networking Engineer</option>
+            <option value="IT Project Manager">IT Project Manager</option>
+        </select>
+
+        <input type="file" name="file" accept=".pdf, .docx">
+        <button type="submit">Upload Resume</button>
+    </form>
+</body>
+</html>

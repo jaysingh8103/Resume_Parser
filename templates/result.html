@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Data</title>
+</head>
+<body>
+
+<h1>Resume Analysis</h1>
+<p><strong>Job Field:</strong> {{ job_field }}</p>
+<p><strong>Matching Skills:</strong> {{ matching_skills }}</p>
+<p><strong>Skills Match:</strong> {{ skills_match }}%</p>
+<p><strong>Experience Match:</strong> {{ experience_match }}%</p>
+<p><strong>Education Match:</strong> {{ education_match }}%</p>
+<p><strong>Semantic Similarity (Job Description vs Resume):</strong> {{ similarity_score }}</p>
+<p><strong>Final Score:</strong> {{ score }}%</p>
+
+<h2>Resume Details</h2>
+<ul>
+    <li><strong>Name:</strong> {{ resume['Name'] }}</li>
+    <li><strong>Email:</strong> {{ resume['Email'] }}</li>
+    <li><strong>Phone:</strong> {{ resume['Phone'] }}</li>
+    <li><strong>Skills:</strong> {{ resume['Skills'] }}</li>
+    <li><strong>Experience:</strong> {{ resume['Experience'] }}</li>
+    <li><strong>Education:</strong> {{ resume['Education'] }}</li>
+</ul>
+    <a href="/">Upload Another Resume</a>
+</body>
+</html>
